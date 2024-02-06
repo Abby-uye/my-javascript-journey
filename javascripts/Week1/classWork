@@ -1,0 +1,19 @@
+let user = {
+    name:"babe",
+    age:36
+};
+let key = 'name';
+console.log(user['name'])
+console.log(user[`${key}`])
+
+function anotherUser(name,age){
+    return ({name,age})
+    
+}
+
+console.log(anotherUser.name = "uye",anotherUser.age = 23)
+let norah = anotherUser("norah",25)
+console.log(norah)
+
+let cohorNumber = 18;
+console.log(`this is cohort ${cohorNumber}`)
