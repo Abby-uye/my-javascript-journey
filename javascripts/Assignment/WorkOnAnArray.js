@@ -8,3 +8,4 @@ theArray.forEach((number) => console.log(number*2));
 console.log(" ")
 
 theArray.map((number) => console.log(number * number));
+exports.
